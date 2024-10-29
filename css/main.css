@@ -1,8 +1,12 @@
 /** The following CSS styles is for the home page
 **/
 
+/* #container {
+  padding-right: 250px;
+} */
+
 .socials {
-  padding: 20px 250px 10px 0;
+  padding: 20px 100px 10px 0;
 }
 .social-icons {
   width: 24px;
@@ -56,14 +60,41 @@ a {
 
 nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 12px;
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  align-items: center;
+  gap: 30px;
+  padding-left: 20px;
 }
 
 nav a {
   color: aliceblue;
+}
+
+#header-search {
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+}
+
+.course-search {
+  padding: 10px;
+}
+
+.header {
+  padding-right: 100px;
+}
+
+#header-search::placeholder {
+  font-size: 10px;
+  color: aliceblue;
+}
+
+#header-search {
+  background-color: #346c42d5;
+  width: 190px;
+  padding-right: ;
 }
 
 

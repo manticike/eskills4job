@@ -8,6 +8,7 @@
   <title>Internal Community School</title>
 </head>
 <body>
+  <div id="container">
   <div id="school-info">
     <div class="contact-info">
       <p> <a href="mailto:antwiisaac52@gmail.com"><svg class="contact-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> antwiisaac52@gmail.com</a></p>
@@ -28,7 +29,7 @@
   </div>
   <div class="header">
     <nav>
-      <a href="#">Logo</a>
+      <a href="#"><img src="../images/logo.png" alt="school's logo" width="24" height="24"></a>
       <a href="#">HOME</a>
       <a href="#">ABOUT</a>
       <a href="#">COURSES</a>
@@ -36,8 +37,8 @@
       <a href="#">SIGN UP</a>
     </nav>
     <div>
-      <form action="/search" method="GET">
-        <input type="search" name="query" placeholder="Search here...">
+      <form class="course-search" action="/search" method="GET">
+        <input id="header-search" type="search" name="query" placeholder="Search here...">
       </form>
       
     </div>
@@ -64,6 +65,6 @@
       </div>
     </div>
   </section>
-  
+  </div>
 </body>
 </html>
