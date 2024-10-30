@@ -185,6 +185,12 @@ form button {
 }
 
 /* The following section is for the benefits section */
+.benefit-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 90px;
+}
+
 .headshot-gallery {
   display: flex;
   align-items: center;
@@ -209,7 +215,7 @@ form button {
 }
 
 .benefit-container {
-  padding: 80px 100px 80px 60px;
+  padding: 80px 80px 80px 60px;
 }
 
 .benefits h3 {
@@ -218,8 +224,8 @@ form button {
 
 .benefits-icons {
   margin-top: 30px;
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   fill: #346C5C;
 }
 
@@ -228,5 +234,26 @@ form button {
   gap: 2rem;
   padding: 20px 30px;
   border-bottom: 1px solid gray;
-  width: 80%;
+  width: 100%;
+}
+
+#benefit-1 {
+  border-top: 1px solid gray;
+}
+
+.benefits  p {
+  color: gray;
+  font-size: 12px;
+}
+
+#experts-heading {
+  font-size: 2rem;
+  color: #346C5C;
+}
+
+#experts {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 4px solid yellow;
+  border-radius: 10px;
 }
