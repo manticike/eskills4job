@@ -1,9 +1,11 @@
 /** The following CSS styles is for the home page
 **/
-
-/* #container {
-  padding-right: 250px;
-} */
+body {
+  background-color: #346C5C;
+}
+#container {
+  padding:10px 50px;
+}
 
 .socials {
   padding: 20px 100px 10px 0;
@@ -42,6 +44,10 @@ a {
   gap: 1rem;
 }
 
+#school-info {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
 .contact-info {
   color: aliceblue;
   padding: 0 10px;
@@ -56,6 +62,7 @@ a {
   background-color: #346C5C;
   display: flex;
   justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
 }
 
 nav {
@@ -94,8 +101,90 @@ nav a {
 #header-search {
   background-color: #346c42d5;
   width: 190px;
-  padding-right: ;
 }
 
+#header-search:focus {
+  outline: none; /* Remove default outline*/
+  background-color: #346c42d5;
+  color: #fff;
+}
 
+/* Hero Section Styling */
 
+.hero {
+  height: 100vh; /* Full viewport height*/
+  background-image: url('../images/female_college_student-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #346C5C;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: flex-start;
+  color: antiquewhite;
+}
+
+#learning-platform {
+  padding-top: 2rem;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.hero-info h1 {
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#whenever {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 4px solid yellow;
+  border-radius: 15px;
+  color: yellow;
+}
+
+.hero-section-form {
+  display: flex;
+}
+
+.hero-section-form input[type="search"],
+form select,
+form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.hero-section-form input[type="search"] {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.hero-section-form select {
+  border-left: none;
+  border-right: none;
+}
+
+.hero-section-form button {
+  background-color: #ffff00;
+  color: black;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+#huge-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  height: 20vh;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #003930;
+  font-weight: 900;
+  background-color: #ffff00;
+}
