@@ -1,14 +1,8 @@
 /** The following CSS styles is for the home page
 **/
-body {
-  background-color: #346C5C;
-}
-#container {
-  padding:10px 50px;
-}
 
 .socials {
-  padding: 20px 100px 10px 0;
+  padding: 20px 100px 10px 40px;
 }
 .social-icons {
   width: 24px;
@@ -72,7 +66,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   gap: 30px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 nav a {
@@ -123,6 +117,7 @@ nav a {
   justify-content:left;
   align-items: flex-start;
   color: antiquewhite;
+  padding-left: 40px;
 }
 
 #learning-platform {
@@ -187,4 +182,51 @@ form button {
   color: #003930;
   font-weight: 900;
   background-color: #ffff00;
+}
+
+/* The following section is for the benefits section */
+.headshot-gallery {
+  display: flex;
+  align-items: center;
+}
+
+.headshot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #fff;
+  margin-left: -10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+/* Adding a hover effect*/
+.headshot:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.benefit-container {
+  padding: 80px 100px 80px 60px;
+}
+
+.benefits h3 {
+  color: #346C5C;
+}
+
+.benefits-icons {
+  margin-top: 30px;
+  height: 40px;
+  width: 40px;
+  fill: #346C5C;
+}
+
+.benefits {
+  display: flex;
+  gap: 2rem;
+  padding: 20px 30px;
+  border-bottom: 1px solid gray;
+  width: 80%;
 }
